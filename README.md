@@ -45,7 +45,8 @@ Update the request body with your own information. Example payload:
 ```
 
 ### 6. Add your business logic here
+⚠️ Do not run the flow without actual nodes instead of the blanks - the logic breaks smh.
 ![Business Logic](assets/business_logic.png)
 
-## ⚠️ Notes
-The commit and JSON parse exceptions are used to escape the repeater and simulate a do-while loop structure.
+## Notes
+- The commit and JSON parse exceptions are used to escape the repeater and simulate a do-while loop structure.
